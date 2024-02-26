@@ -3,10 +3,10 @@
     "category": "misc",
     "ingredients": [
         {
-            "item": "create:blueprint_and_quil"
+            "item": "create:schematic_and_quill"
         },
         {
-            "item": "minecraft:scaffolding"
+            "tag": "bpvoid:scaffolding"
         }
     ],
     "result": {
