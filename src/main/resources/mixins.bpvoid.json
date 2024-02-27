@@ -1,15 +1,18 @@
 {
-  "required": true,
-  "package": "com.lnatit.bpvoid.mixin.impl",
-  "compatibilityLevel": "JAVA_17",
-  "refmap": "mixins.bpvoid.refmap.json",
-  "mixins": [
-    "SchematicannonBlockEntityMixin"
-  ],
-  "client": [
-  ],
-  "minVersion": "0.8",
-  "injectors": {
-    "defaultRequire": 1
+    "required": true,
+    "package": "com.lnatit.bpvoid.mixin.impl",
+    "compatibilityLevel": "JAVA_17",
+    "refmap": "mixins.bpvoid.refmap.json",
+    "mixins": [
+        "create.BlockEntityRenderHelperMixin",
+        "create.SchematicannonBlockEntityMixin",
+        "create.SchematicRendererMixin"
+    ],
+    "client": [
+        "minecraft.ModelBlockRendererMixin"
+    ],
+    "minVersion": "0.8",
+    "injectors": {
+        "defaultRequire": 1
   }
 }

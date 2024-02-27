@@ -1,4 +1,4 @@
-package com.lnatit.bpvoid.mixin.impl;
+package com.lnatit.bpvoid.mixin.impl.create;
 
 import com.lnatit.bpvoid.BlueprintVoid;
 import com.simibubi.create.content.schematics.cannon.SchematicannonBlockEntity;
@@ -21,7 +21,7 @@ public class SchematicannonBlockEntityMixin {
             at = @At("RETURN"),
             cancellable = true
     )
-    protected void bpvoid$shouldPlace(BlockPos pos, BlockState state, BlockEntity be, BlockState toReplace, BlockState toReplaceOther, boolean isNormalCube, CallbackInfoReturnable<Boolean> cir) {
+    private void bpvoid$shouldPlace(BlockPos pos, BlockState state, BlockEntity be, BlockState toReplace, BlockState toReplaceOther, boolean isNormalCube, CallbackInfoReturnable<Boolean> cir) {
         Block block = state.getBlock();
         if (cir.getReturnValue() && (
                 // the structure void block has already been
