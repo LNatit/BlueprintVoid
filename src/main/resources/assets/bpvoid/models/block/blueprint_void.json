@@ -2,6 +2,6 @@
   "parent": "minecraft:block/cube_all",
   "render_type": "minecraft:cutout",
   "textures": {
-    "all": "bpvoid:block/b2"
+    "all": "bpvoid:block/blueprint_void"
   }
 }

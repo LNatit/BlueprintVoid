@@ -4,7 +4,6 @@
     "compatibilityLevel": "JAVA_17",
     "refmap": "mixins.bpvoid.refmap.json",
     "mixins": [
-        "create.BlockEntityRenderHelperMixin",
         "create.SchematicannonBlockEntityMixin",
         "create.SchematicRendererMixin"
     ],

@@ -1,3 +1,4 @@
 {
-    "block.bpvoid.blueprint_void": "蓝图空位"
+    "block.bpvoid.blueprint_void": "蓝图空位",
+    "item.bpvoid.blueprint_void.tooltip.behaviour1": "May I?"
 }

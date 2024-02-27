@@ -18,7 +18,8 @@ public class SchematicannonBlockEntityMixin {
     @Inject(
             method = "shouldPlace",
             at = @At("RETURN"),
-            cancellable = true
+            cancellable = true,
+            remap = false
     )
     private void bpvoid$shouldPlace(BlockPos pos, BlockState state, BlockEntity be, BlockState toReplace, BlockState toReplaceOther, boolean isNormalCube, CallbackInfoReturnable<Boolean> cir) {
         Block block = state.getBlock();
