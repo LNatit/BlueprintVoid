@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "bpvoid:block/blueprint_void"
+    }
+  }
+}
