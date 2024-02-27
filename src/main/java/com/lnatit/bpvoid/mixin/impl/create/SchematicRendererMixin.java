@@ -60,17 +60,4 @@ public class SchematicRendererMixin
                 1.0009765625f
         );
     }
-
-//    @Redirect(
-//            method = "drawLayer",
-//            at = @At(
-//                    value = "INVOKE",
-//                    target = "Lcom/mojang/blaze3d/vertex/PoseStack;pushPose()V"
-//            )
-//    )
-//    private void bpvoid$drawLayer(PoseStack instance)
-//    {
-//        instance.pushPose();
-////        instance.scale(1.0625f, 1.0625f, 1.0625f);
-//    }
 }

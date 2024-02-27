@@ -1,4 +1,5 @@
 {
     "block.bpvoid.blueprint_void": "Blueprint Void",
-    "item.bpvoid.blueprint_void.tooltip.behaviour1": "May I?"
+    "item.bpvoid.blueprint_void.tooltip.behaviour1": "May I?",
+    "config.bpvoid.replacevoid": "Replace Structure Void"
 }

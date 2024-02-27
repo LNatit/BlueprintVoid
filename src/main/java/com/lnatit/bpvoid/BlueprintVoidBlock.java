@@ -27,9 +27,9 @@ import javax.annotation.ParametersAreNonnullByDefault;
 @FieldsAreNonnullByDefault
 @ParametersAreNonnullByDefault
 @MethodsReturnNonnullByDefault
-public class BPVoidBlock extends Block implements IWrenchable
+public class BlueprintVoidBlock extends Block implements IWrenchable
 {
-    public BPVoidBlock()
+    public BlueprintVoidBlock()
     {
         super(
                 Properties.of()
