@@ -11,8 +11,6 @@ import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
-import static com.lnatit.bpvoid.BlueprintVoid.LOGGER;
-
 @Mixin(SchematicannonBlockEntity.class)
 public class SchematicannonBlockEntityMixin {
     @Inject(
@@ -29,7 +27,7 @@ public class SchematicannonBlockEntityMixin {
 //                block.equals(Blocks.STRUCTURE_VOID) ||
                 block.equals(BlueprintVoid.BLUEPRINT_VOID.get())
         )) {
-            LOGGER.info("找到你了，美味的小孩~");
+//            LOGGER.info("找到你了，美味的小孩~");
             cir.setReturnValue(false);
             cir.cancel();
         }

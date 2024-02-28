@@ -37,20 +37,22 @@ The mod also fixed the z-fighting problem in schematic render.
 
 图片上半部分为保存的结构，下半部分为使用蓝图大炮打印出的结果
 
-The uppers are the structures to save, while the lower are the printed results.
+The uppers are the structures to save, while the lowers are the printed results.
 
 从左到右分别为：
 - Create 原版结构中使用结构方块打印效果
 - 使用蓝图空位的打印效果
 - 安装本 Mod 后结构方块的打印效果
+
 （白色小方块位置为结构方块，蓝色方块位置为空气方块）
 
 From left to right:
 - vanilla Create result
 - blueprint void printed
 - replaced structure void
-  (Small white cubes are structure void blocks, blue cubes are air blocks)
+
+(Small white cubes are structure void blocks, blue cubes are air blocks)
 
 最右侧为放置蓝图时的预览效果，可以看到不再有深度冲突问题
 
-Demonstrated on the right-bottom are the schematic render effect, no z-fighting anymore.
+Demonstrated on the right-bottom is the schematic render effect, no z-fighting anymore.
