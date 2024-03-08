@@ -10,11 +10,13 @@ import org.spongepowered.asm.mixin.injection.Redirect;
 
 @Mixin(SchematicAndQuillItem.class)
 public class SchematicAndQuillItemMixin {
+    // Love ❤️ from ZekerZayard
     @Redirect(
-            method = "lambda$replaceStructureVoidWithAir$0",
+            method = {"lambda$replaceStructureVoidWithAir$0"},
             at = @At(
                     value = "INVOKE",
-                    target = "Lnet/minecraft/nbt/CompoundTag;putString(Ljava/lang/String;Ljava/lang/String;)V"
+                    target = "Lnet/minecraft/nbt/CompoundTag;putString(Ljava/lang/String;Ljava/lang/String;)V",
+                    remap = true
             ),
             remap = false
     )
