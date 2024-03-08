@@ -27,7 +27,7 @@ displayName="${mod_name}" #mandatory
 # A file name (in the root of the mod JAR) containing a logo for display
 logoFile="logo.png" #optional
 # A text field displayed in the mod UI
-credits="Thx to YurisCat for the texture, xkball for release issues!" #optional
+credits="Thx to YurisCat for the texture, ZekerZayard for bug fixing, xkball for release issues!" #optional
 # A text field displayed in the mod UI
 authors="${mod_authors}" #optional
 # Display Test controls the display for your mod in the server connection screen
